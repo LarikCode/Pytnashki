@@ -42,11 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NewGame\AntiPlayer.cs" />
+    <Compile Include="FieldCreate\CellWithTitle.cs" />
+    <Compile Include="Commands\CommandDown.cs" />
+    <Compile Include="Commands\CommandLeft.cs" />
+    <Compile Include="Commands\CommandRight.cs" />
+    <Compile Include="Commands\CommandUP.cs" />
+    <Compile Include="FieldCreate\DeveloperCell.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="NewGame\Player.cs" />
+    <Compile Include="NewGame\Pole.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
